@@ -1,0 +1,49 @@
+h1{
+    text-align:center;
+    color: darkgreen;}
+
+    .nav a:hover{
+        background-color: rgb(60, 5, 212);
+        color: rgb(204, 27, 204);
+        text-decoration: none;
+        padding: 0px;
+        display: block;
+    } 
+    .nav{
+        background-color: rgb(192, 206, 72);
+        columns: 5;
+        column-gap: 1px;
+        column-rule: 2px solid whitesmoke;
+        position: sticky;
+        font-size: 22px;
+        top: 0px;
+    }
+    ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(75, 22, 63);
+    }
+    
+    
+img{
+    width: 100%;
+}
+    
+h3{
+    text-align:center;
+}
+
+.contuct{
+    Max-width:1200px;height:100px;
+    float:bottom;
+    background-color: rgb(118, 114, 146);
+    margin: auto;
+    padding: 2px;}
+a :hover{
+    text-decoration: none;
+}

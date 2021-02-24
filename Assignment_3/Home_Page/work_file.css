@@ -1,0 +1,25 @@
+.nav{background-color: rgb(75, 236, 115);
+    columns: 1;
+    column-gap: 0px;
+    column-rule: 2px solid rgb(192, 18, 18);
+    position: sticky;
+    font-size: 25px;
+    top: 0px;
+}
+a{
+    text-decoration: none;color: rgba(5, 16, 170, 0.89);
+    font-size: 180%;
+}
+.nav a:hover{background-color: rgb(60, 5, 212);
+color: rgb(199, 15, 199);
+text-decoration: none;
+padding: 0px;
+display: block;
+}
+
+ul{list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    }
+    

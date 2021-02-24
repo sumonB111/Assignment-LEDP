@@ -1,0 +1,24 @@
+img{width: 100%; height:80px}
+.nav{background-color: rgb(39, 131, 62);
+    columns: 5;
+    column-gap: 1px;
+    column-rule: 2px solid rgb(240, 234, 234);
+    position: sticky;
+    font-size: 22px;
+    top: 0px;
+}
+a{text-decoration: none;color: rgb(14, 230, 238);}
+.nav a:hover{background-color: rgb(60, 5, 212);
+    color: rgb(236, 38, 193);
+    text-decoration: none;
+    padding: 0px;
+    display: block;}
+    
+    
+    ul{list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    }
+    h1{color: rgb(25, 58, 15); text-align: center;}
+    h2{background-color: rgb(119, 173, 123);color: darkblue;text-align: center;}
