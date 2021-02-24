@@ -33,17 +33,12 @@ h1{
 img{
     width: 100%;
 }
-    
-h3{
-    text-align:center;
-}
-
 .contuct{
-    Max-width:1200px;height:100px;
+    Max-width:1350px;height:100px;
     float:bottom;
     background-color: rgb(118, 114, 146);
     margin: auto;
-    padding: 2px;}
-a :hover{
-    text-decoration: none;
+    padding: 2px;
+    text-align:center;
 }
+

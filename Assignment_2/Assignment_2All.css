@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;color: rgba(204, 50, 12, 0.89);
+    font-size: 180%;
+}
+h2{
+    text-decoration: none;color: rgba(6, 13, 110, 0.993);
+    font-size: 250%;
+    text-align: center;
+}
+body{
+    background-color: antiquewhite;
+    margin-left: 10%;
+}

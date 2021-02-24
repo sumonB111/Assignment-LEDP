@@ -11,17 +11,17 @@ img{
 }
 
 .nav{
-    background-color:rgb(74, 21, 199);
+    background-color:rgb(43, 13, 38);
     columns:5;
     column-gap:1px;
-    column-rule:2px solid rgb(132, 238, 100);
+    column-rule:2px solid rgb(124, 197, 101);
     position:sticky;
     font-size:20px;
     top: 1px;
 }
 a{
     text-decoration: none;color: rgb(21, 191, 243);}
-    .nav a:hover{background-color: rgba(42, 231, 52, 0.911);
+    .nav a:hover{background-color: rgba(184, 185, 240, 0.911);
         color: rgb(204, 27, 204);
         text-decoration: none;
         padding: 0px;
@@ -40,6 +40,13 @@ ul{
     background-color: rgba(98, 44, 143, 0.897);width: 1225px;float: left; height: 300px;
 }
 
-
-
 p{font-size: 20px;}
+
+.contuct{
+    Max-width:1350px;height:100px;
+    float:bottom;
+    background-color: rgb(55, 29, 226);
+    margin: auto;
+    padding: 2px;
+    text-align:center;
+}
