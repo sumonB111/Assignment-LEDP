@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<hthml lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compitable" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initiate-scale=1.0">
+    <title>Survey form </title>
+<link rel="stylesheet"href="survey.css">
+<link rel="stylesheet"href="bootstrap.min.css">
+   
+
+</head>
+
+<body>
+    <div class="main">
+
+
+        <header class="header"><br>
+            <h1 id="title">LEDP Survey Form</h1>
+            <p id="description">Thank you for making the time to help us improve the platfrom</p>
+        </header>
+
+
+    <div class="container">
+        <div class="cont">
+       
+        <form action="" id="survey-form">
+            <!--form start-->
+            <div class="form-group">
+        
+            <label for="name">Name</label>
+            <input type="text" class="formControl" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+        
+            <label for="Email">E-mail</label>
+            <input type="email" id="email" class="formControl" placeholder="Enter your Email" required>
+        </div>
+        <!--age section-->
+        <div class="form-group">
+        
+            <label for="Age">Age</label>
+            <span class="clue"> (optional)</span>
+            <input type="number" class="formControl" placeholder="Age" required>
+        </div>
+
+        <!--option-->
+        <div class="form-group">
+            <p id="quest">Which option best describe Your Current Role </p>
+            <select name="role" id="dropdown" class="formControl" required>
+                <option value="" disabled selected>Select current role</option>
+                <option value="Student">student</option> 
+                <option value="Teacher">Teacher</option> 
+                <option value="other">other</option> 
+                
+            </select>
+        </div>
+
+        <!--redio-->
+        <div class="form-group">
+            <p id="quest">Would You recommend LEDP to a frieng ?</p>
+            <label for="">
+            <input type="radio" name="source" value="Definitel" class="radioinput" checked >Definitely</label><br>
+            <label for="">
+                <input type="radio" name="source" value="Maybe" class="radioinput" >Maybe</label><br>
+                <label for="">
+                    <input type="radio" name="source" value="Not sure" class="radioinput" >Not sure</label>
+        </div>
+        <!--feature-->
+        <div class="form-group">
+            <p id="quest">What is favourite feature in LEDP ? </p>
+            <select name="Feature" id="dropdown" class="formControl" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="web design">Web design</option> 
+                <option value="grapics design">Grapics design</option> 
+                <option value="Digital markating">Digital markating</option> 
+                
+            </select>
+        </div>
+        <!--check box-->
+        <div class="form-group">
+            <p id="quest">Would you like to see improved ? (Chack all that apply)</p>
+            <label for="">
+                <input type="checkbox"name="prefer"value="back-end-dev">Front-end Projects
+            </label><br>
+
+            <label for="">
+                <input type="checkbox"name="prefer"value="back-end-dev">Back-end Projects
+            </label><br>
+
+            <label for="">
+                <input type="checkbox"name="prefer"value="back-end-dev">Data Vidualization
+            </label><br>
+
+            <label for="">
+                <input type="checkbox"name="prefer"value="back-end-dev">Challenges
+            </label><br>
+
+            <label for="">
+                <input type="checkbox"name="prefer"value="back-end-dev">Open Sourch Community
+            </label><br>
+
+            <label for="">
+                <input type="checkbox"name="prefer"value="back-end-dev">Guiter help rooms
+            </label><br>
+
+            <label for="">
+                <input type="checkbox"name="prefer"value="back-end-dev">Videos
+            </label><br>
+
+            <label for="">
+                <input type="checkbox"name="prefer"value="back-end-dev">City meetups
+            </label><br>
+
+            <label for="">
+                <input type="checkbox"name="prefer"value="back-end-dev">Wiki 
+            </label><br>
+
+            <label for="">
+                <input type="checkbox"name="prefer"value="back-end-dev">Forums
+            </label><br>
+
+            <label for="">
+                <input type="checkbox"name="prefer"value="back-end-dev">Additional Courses
+            </label>
+        </div>
+        <!--feedback-->
+        <div class="form-group">
+            <p id="quest">Give us your feedback</p>
+            <textarea name="feedback" id="feedback" cols="30" rows="5" class="textarea"
+            placeholder="Enter your feedback here..."></textarea>
+        </div>
+
+        <!--submit button-->
+        <div class="btn">
+            <button type="submit" id="submit" class="btn2">Submit</button>
+        </div>
+        </form>
+    </div>
+</div>
+</div>
+</body>
+</html>
